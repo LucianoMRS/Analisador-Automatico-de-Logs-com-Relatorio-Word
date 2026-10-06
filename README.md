@@ -1,0 +1,1 @@
+# Analisador-Automatico-de-Logs-com-Relatorio-Word
