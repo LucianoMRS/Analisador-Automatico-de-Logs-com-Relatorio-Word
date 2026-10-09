@@ -217,11 +217,11 @@ def adicionar_rodape(doc):
 # Relatório
 # ----------------------------------------------------------------------
 def criar_relatorio():
-    caminho_log = PASTA / "logs.txt"
+    caminho_log = PASTA / "logs_de_exemplo.txt"
 
     if not caminho_log.exists():
         print(f"Arquivo não encontrado: {caminho_log}")
-        print("Coloque o logs.txt na mesma pasta do main.py.")
+        print("Coloque o logs na mesma pasta do main.py.")
         return
 
     with open(caminho_log, encoding="utf-8") as arquivo:
